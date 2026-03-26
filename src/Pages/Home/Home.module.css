@@ -1,0 +1,17 @@
+.home{
+    align-items: center;
+    flex-direction: column;
+}
+.limit_page {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.wellcome{
+    text-align: center;
+    font-size: 10rem;
+    padding: 5rem 0;
+}
+.h2{
+    text-align: center;
+}

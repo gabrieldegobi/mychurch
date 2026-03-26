@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+.header {
+    background-color: #D4DE95;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "SN Pro", sans-serif;
+    border-bottom: 1px solid orangered;
+}
+
+.limit_page {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.active_link {
+    color: orangered;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+.button_login {
+    background-color: orangered;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.button_login:hover {
+    background-color: transparent;
+    color: orangered;
+    text-decoration: none;
+    transition: .5s;
+    border: 1px solid orangered;
+}

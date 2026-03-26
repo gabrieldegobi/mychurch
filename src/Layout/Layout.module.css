@@ -1,0 +1,7 @@
+.layout{
+    background-color: #bac095;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
