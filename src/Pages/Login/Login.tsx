@@ -1,9 +1,8 @@
-import React from 'react'
-import NavBar from '../../Components/NavBar/NavBar'
 
+import type { UserCredential } from "firebase/auth"
 const Login = () => {
   return (
-<></>  )
+    <></>)
 }
 
 export default Login
